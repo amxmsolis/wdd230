@@ -1,0 +1,56 @@
+*{
+    margin: auto;
+}
+/* https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    align-content: center;
+}
+header, footer{
+    max-width: 600px;
+    background-color: #ffc8dd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: .5px .5px #cdb4db;
+    background-image: linear-gradient(to right, #ffafcc, #ffc8dd, #cdb4db);
+}
+header{
+    display: grid;
+    grid-template-columns: 120px auto;
+}
+header h1{
+    text-align: center;
+}
+main{
+    max-width: 600px;
+    padding: 10px;
+}
+ul{
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    border-top: 1.5px solid grey;
+}
+.mainnote{
+    padding-bottom: 20px;
+    border-top: 1.5px solid grey;
+    font-size: .9rem;
+    font-style: italic;
+}
+#idPhoto{
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #ffafcc;
+}
+h1, h2{
+    filter: blur(.7px);
+}
+
+footer p{
+    text-align: center;
+}
+.footerdate{
+    font-size: .7rem;
+    text-align: center;
+}
