@@ -1,2 +1,3 @@
+/*Monica Solis WDD230 */
 document.querySelector('#currentYear').textContent = new Date().getFullYear();
-document.getElementById('currentDate').textContent = new Date(document.lastModified);
+document.getElementById('updateDate').textContent = new Date(document.lastModified);
