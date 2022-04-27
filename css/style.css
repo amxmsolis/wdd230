@@ -1,3 +1,4 @@
+@import 'medium.css';
 *{
     margin: auto;
 }
@@ -8,7 +9,7 @@ body{
     font-size: 16px;
     align-content: center;
 }
-header, footer{
+header, footer {
     max-width: 600px;
     background-color: #ffc8dd;
     border-radius: 8px;
@@ -16,12 +17,13 @@ header, footer{
     box-shadow: .5px .5px #cdb4db;
     background-image: linear-gradient(to right, #ffafcc, #ffc8dd, #cdb4db);
 }
-header{
-    display: grid;
-    grid-template-columns: 120px auto;
+header {
+    display: flex;
 }
 header h1{
     text-align: center;
+}
+.signaturetext {
     font-family: 'Kalam', cursive;
 }
 main{

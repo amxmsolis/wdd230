@@ -1,0 +1,8 @@
+@media (max-width: 32.5em) {
+    header {
+        flex-direction: column;
+    }
+    header h1{
+        filter: blur(0px);
+    }
+}
