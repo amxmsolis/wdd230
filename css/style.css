@@ -20,6 +20,10 @@ header, footer {
 header {
     display: flex;
 }
+ 
+.material-icons{
+    color: #000000;
+}
 header h1{
     text-align: center;
 }

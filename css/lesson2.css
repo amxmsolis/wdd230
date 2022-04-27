@@ -1,0 +1,48 @@
+main {
+    border: 1px solid #cdb4db;
+    display: grid;
+    gap: 7px; 
+    vertical-align: top;
+}
+
+main section {
+    border: 1px solid #cdb4db;
+}
+.seccionimage {
+    width:100%;
+    max-width: 600px;
+    border: 0px;
+}
+h3 {
+    background-color: #cdb4db;
+}
+
+/*small*/
+@media (max-width: 32.5em) {
+    h1{
+        color: red;
+    }
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*medium*/
+@media (min-width: 32.5em) and (max-width: 50em) {
+    h1{
+        color: yellow;
+    }
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*large*/
+@media (min-width: 51em) {
+    h1{
+        color: green;
+    }
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
