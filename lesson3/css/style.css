@@ -1,3 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 5px;
+} 
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+main {
+    min-height: 600px;
+}
+footer p{
+    font-size: .8em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
+}
+
+
+.UpperMenu{
+    display: flex;
+  
+    flex-basis: auto;
+    flex-wrap: nowrap;
+}
+
+.UpperMenu div{
+    flex: 1 1 auto;
+}
+
+/*small*/
+@media (max-width: 32.5em) {
+    .UpperMenu {
+        flex-direction: column;
+    }
+    section img{
+        max-width:100%; 
+    }
+}
+
+/*medium*/
+@media (min-width: 32.5em) and (max-width: 50em) {
+    .UpperMenu {
+        flex-direction: row;
+    }
+    section img{
+        max-width:45%; 
+    }
+}
+
+/*large*/
+@media (min-width: 51em) {
+    .UpperMenu {
+        flex-direction: row;
+    }
+    section img{
+        max-width:25%; 
+    }
 }
