@@ -1,0 +1,14 @@
+@media (min-width: 32.5em) and (max-width: 50em) {
+    .developerInfo {
+        border-top: 1.5px solid #15434a;
+        padding-top: 1em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .developerInfo li {
+        border-right: 1.5px solid #15434a;
+        padding-right: 1em;
+    }
+
+}

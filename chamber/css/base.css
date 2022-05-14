@@ -1,0 +1,26 @@
+@media (max-width: 32.5em) {
+    main {
+        flex-wrap: wrap;
+    }
+    .developerInfo {
+        border-top: 1.5px solid #15434a;
+        padding-top: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .addressAndMail{
+        text-align: center;
+    }
+
+    #join, #sportlight3 {
+        display: none;
+    }
+}

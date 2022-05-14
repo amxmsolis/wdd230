@@ -1,0 +1,15 @@
+@media (min-width: 51em) {
+    .developerInfo {
+        border-top: 1.5px solid #15434a;
+        padding-top: 1em;
+        display: flex; 
+        justify-content:  center;
+        
+    }
+
+    .developerInfo li {
+        border-right: 1.5px solid #15434a;
+        padding-right: 1em;
+    }
+
+}

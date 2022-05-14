@@ -5,20 +5,79 @@
 } 
 body{
     font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+}
+header{
+    background-color: #7ec3cc;
+}
+main{
+    display: flex; 
+}
+ 
+.centerInfo, .leftinfo,  .spotsection{
+    position: relative;
+    text-align: center;
+}
+.titleInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.logoHeader {
+    width: 20rem;
+    height: auto;
+}
+.centerInfo img, .leftInfo img, .spotLite img{
+    width: 100%;
 }
 footer {
-    margin-top: 40px;;
+    margin-top: 40px;
+    font-size: .7em;
+    background-color: #7ec3cc;
 }
-footer p{
-    font-size: .8em;
+header ul, footer ul {
+    list-style-type: none;
+}
+.siteNavigation{
+    display: flex;
+}
+.socialMedia{
+    display: flex;
+    font-size: 2rem;
+}
+.contactInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logoFooter {
+    width: 10rem;
+    height: auto;
+}
+.developerInfo {
     font-style: italic;
 }
-nav{
-    background-color: #15434a;
+
+.UpperMenu{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: nowrap;
 }
+
+.UpperMenu div{
+    flex: 1 1 auto;
+}
+.sociallogo{
+    color: #ffffff;
+}
+/*nav{
+    background-color: #3d757d;
+}*/
 nav a:link, nav a:visited {
-    text-decoration: none;
-    background-color: #15434a;
+    text-decoration: none; 
     color: #ffffff;
     font-weight: bold;
     width: max-content;
@@ -34,6 +93,9 @@ nav a:active, nav a:hover {
     color: #ffffff;
     width:fit-content;
 }
+
+
+/*
 
 img {
     max-width: 100%;
@@ -85,18 +147,9 @@ img {
     color: #ffffff;
 }
  
-.UpperMenu{
-    display: flex;
-  
-    flex-basis: auto;
-    flex-wrap: nowrap;
-}
+*/
 
-.UpperMenu div{
-    flex: 1 1 auto;
-}
-
-/*small*/
+/*small
 @media (max-width: 32.5em) {
     .UpperMenu {
         flex-direction: column;
@@ -107,9 +160,9 @@ img {
     .colores-table{
         flex-direction: column;
     }
-}
+}*/
 
-/*medium*/
+/*medium
 @media (min-width: 32.5em) and (max-width: 50em) {
     .UpperMenu {
         flex-direction: row;
@@ -117,9 +170,9 @@ img {
     section img{
         max-width:45%; 
     }
-}
+}*/
 
-/*large*/
+/*large
 @media (min-width: 51em) {
     .UpperMenu {
         flex-direction: row;
@@ -128,3 +181,5 @@ img {
         max-width:25%; 
     }
 }
+
+*/
