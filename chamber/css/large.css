@@ -11,5 +11,10 @@
         border-right: 1.5px solid #15434a;
         padding-right: 1em;
     }
+    
+    .leftInfo{
+        flex-direction: column;
+        order: -1;
+    } 
 
 }
