@@ -1,20 +1,61 @@
 @media (min-width: 51em) {
+    .upperMenu {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+
+    #join,
+    #sportlight3 {
+        display: block;
+    }
+
+    #leftSection {
+        order: 1;
+    }
+
+    #calltoAction {
+        flex-shrink: inherit;
+        order: 2;
+    }
+
+    #spotLite {
+        order: 3;
+    }
+
+    #newsRelease {
+        order: 2;
+    }
+
+
+    .contactInfo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     .developerInfo {
         border-top: 1.5px solid #15434a;
         padding-top: 1em;
-        display: flex; 
-        justify-content:  center;
-        
+        display: flex;
+        justify-content: center;
+
     }
 
     .developerInfo li {
         border-right: 1.5px solid #15434a;
         padding-right: 1em;
     }
-    
-    .leftInfo{
+
+    .leftInfo {
         flex-direction: column;
         order: -1;
-    } 
+    }
 
 }
