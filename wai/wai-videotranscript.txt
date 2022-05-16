@@ -1,0 +1,116 @@
+Welcome
+My name is Monica Solis and I will talk about Web Accessibility. 
+
+Web Accessibility
+The United Nations 2030 Agenda, pledging to “leave no one behind”. 
+[Image: Web Accessibility Title]
+
+Accessibility for Persons with Disabilities by United Nations
+According with United Nations, Accessibility is to enable persons with disabilities to live independently and participate fully in all aspects of life. To ensure to persons with disabilities access, on an equal basis with others. Including information and communications technologies and systems. 
+[Image: Infographic related to Accessibility for Persons with Disabilities by United Nations]
+
+Web developers should know our users
+People who have limited use of their arms, people who cannot hear or see well and people who process information differently, should all be able to access and use web sites and applications. Web technologies have many built in features for accessibility, and we as web developers should know them so that we do not exclude any of our users. 
+[Image: A group of people with disabilities]
+
+Permanent, temporary and situational disabilities
+When we develop for people with disabilities we are developing for all.  It is very important to remember that exists permanent, temporary and situational disabilities. For example: 
+A person with one arm has a permanent disability, 
+A person with a broken arm has a temporary disability, 
+A new parent holding a baby on one arm has a situational disability. 
+[Image: Icon of one person without an arm, one person with broken arm and one carrying a baby]
+
+Groups of disabilities 
+Auditory - People with hearing loss.  
+Physical - People with limitations in their muscular control, sensations, joint disorders or missing limbs.  
+Visual - People with reduced vision. 
+Cognitive, learning and neurological - People that may have challenges understanding information. 
+Speech - Some people are not able to speak.
+Let’s see some suggestions for support those groups of disabilities
+[Image: Icons that represent each disability group]
+
+Well-developed web site
+Based on those disabilities groups let’s think in a well-developed web site… now we will review with different point of view.  
+[Image: example of a well-developed web site]
+
+Auditory
+Transcripts for audio and captions for video, are great tools for support auditory disabilities. 
+In this example we can see the option to download transcripts.
+This option can also support a bad internet access. 
+
+Physical 
+People with disabilities use technology in a variety of ways. Here are some examples:
+People with hand tremors cannot grip a mouse. They use the keyboard to navigate.
+People with mobility disabilities use their voice to control the computer or mobile device.
+People with mobility disabilities use eye tracking to move the screen cursor.
+People with mobility disabilities use switch devices to operate the computer or mobile device.
+People who are blind use screen readers, braille displays or speech recognition software.
+People with low vision use screen magnification.
+Remember to support assistive technologies like switches and voice recognition and to have sufficient target sizes. Target size is the size of a interactive element, the clickable or tapable area.
+For example in this screen we can see a form that has big input field and a big button for submition.
+
+Visual
+For People with reduced vision, make sure text and images can be enlarged, you use sufficient contrast, that you do not rely on color alone, and that the content supports text-to-speech.
+
+Hyperopia
+Far-sightedness (Hyperopia) is one of the most common visual impairments. People with Hyperopia have difficulty focusing on objects at close range which makes them appear blurry. Some suggestions are:
+Avoid text in small font sizes and long texts. Use proper spacing and line height.
+Make sure the website can be zoomed to at least 200%.
+Offer a text to speech reader.
+
+Total color blindness
+People with lowered color vision have difficulty distinguishing some or all colors. Total color blindness (Monochromatic / Achromatopsy) is very rare. People with this visual impairment can not percieve any colors, only different shades of gray.
+Make sure you have enough contrast between text and images.
+
+Tunnel Vision
+Is loss of peripheral vision. This may be because the person suffers from a disease that affects the cells in the eye, but may also occur temporarily due to stress or depression.
+Avoid text in small font sizes and long texts. Use proper spacing and line height.
+Make sure the website can be zoomed to at least 200%.
+Offer a text to speech reader.
+
+[Voice recorder: People use your interface in different situations. Make sure your interface delivers a valuable experience to people regardless of their circumstances.]
+For blind,  it is important  to offer a text to speech reader.
+[Image: black screen]
+
+Cognitive, learning and neurological
+People that may have challenges understanding information. Remember a clear structure, consistent labeling, predictable links and plain language. This helps everyone regardless of ability or disability. 
+
+Dyslexia and Small vocabulary
+Dyslexia is a disability that makes it difficult for the brain to automate the interpretation of words. This makes it hard for people with this disability to read and write. Dyslexia is has no connection with vision or intelligence. The causes of dyslexia are still unclear.
+Small vocabulary - A large part of the world's population can't read at all and many adults don't read as well as expected after finishing grade school.
+Avoid text in small font sizes and long texts. Use proper spacing and line height.
+Avoid difficult words and terms.
+Offer easy to read texts, images, video or audio alternatives.
+Avoid fonts with complicated and complex characters.
+Offer texts in different languages.
+
+Speech
+Some people are not able to speak. Do not make your service voice-based only.
+People with disabilities use technology in a variety of ways. As developers, we do not need to code for a particular technology. We use standards methods to make sure that our solution is accessible for all.
+Some terms that we need to review for support those technologies are: Visual Focus, Skip links, screen readers, forms, labels, autocomplete and error managing, 
+
+How to program for Accessibility?
+Sorry I did’t show you any code, I may suggest to go to W3C, Mozilla Developer and look for Accessibility and you will find a lot of examples. But I would like to say that for accessibility we need to know our users, we need to plan our website with a clear structure, using meaninful images, plain language, good contrast,  support assistive technologies, test our page code. 
+For sure program with the best practices and update ourself about new standars in coding and accessibility.
+
+Tools
+I share two great tolos that supports accesibility, Web Disability Simulator and Web Developer for chrome in the option validate accessibility.
+•	Web Disability Simulator: https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla
+•	Web Developer for Chrome [validate accessibility]: https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=es
+You can see some additional videos from W3C Web Accessibility Initiative here, in the link upper of this video.
+
+Source 
+Accessibility Tutorial W3Schools 
+W3C Web Accessibility Iniciative 
+Mozilla Developer  
+•	United Nations - Department of Economic and Social AffairsDisability 
+•	Accessibility Tutorial W3Schools: https://www.w3schools.com/accessibility/index.php
+•	W3C Web Accessibility Iniciative: https://www.w3.org/WAI/fundamentals/accessibility-intro/
+•	Mozilla Developer:  https://developer.mozilla.org/en-US/docs/Web/Accessibility
+•	Convention on the Rights of Persons with Disabilities (CRPD) – Article 9
+•	United Nations - Department of Economic and Social AffairsDisability https://www.un.org/development/desa/disabilities/
+
+You can also download the transcript for this presentation, in the comment box. Thank you and see you later.
+
+
+

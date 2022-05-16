@@ -37,7 +37,7 @@ main{
 ul{
     padding-top: 20px; 
     padding-bottom: 20px; 
-    border-top: 1.5px solid grey;
+    border-top: 0px solid grey;
 }
 .mainnote{
     padding-bottom: 20px;
@@ -60,4 +60,8 @@ footer p{
 .footerdate{
     font-size: .7rem;
     text-align: center;
+}
+.youtubeVideo{
+    width: 560px;
+    height: 315px;
 }
