@@ -61,7 +61,7 @@ img.logoHeader {
 
 .siteNavigation a.menuHamburger::before {
     content: " = ";
-    font-size: large;
+    font-size: 2em;
 }
 
 .siteNavigation a:hover {
@@ -78,7 +78,7 @@ img.logoHeader {
 }
 
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 50em) {
     .siteNavigation {
         display: flex;
     }
@@ -139,7 +139,7 @@ img.logoHeader {
 /*fotter definitions*/
 footer {
     margin-top: 40px;
-    font-size: .7em;
+    font-size: .9em;
     background-color: #7ec3cc;
     text-align: center;
 }

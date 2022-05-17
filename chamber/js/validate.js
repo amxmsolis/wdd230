@@ -6,7 +6,7 @@ hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('changeMenuResp')
 }, false);
 window.onresize = () => {
-    if (window.innerWidth > 760) mainnav.classList.remove('changeMenuResp')
+    if (window.innerWidth > 815) mainnav.classList.remove('changeMenuResp')
 };
 
 document.querySelector('#currentDate').textContent = new Date().toDateString();
