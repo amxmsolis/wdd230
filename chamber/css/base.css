@@ -14,7 +14,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: left;
+    align-content: flex-start;
 }
 
 img.logoHeader {
@@ -102,7 +102,7 @@ img.logoHeader {
     display: none;
 }
 
-.watchingDate{
+.watchingDate {
     width: 100%;
     color: #ffffff;
     text-align: center;

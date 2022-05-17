@@ -3,25 +3,42 @@
         display: flex;
         flex-direction: column;
     }
-    .spotLite{
+
+    .spotLite {
         display: flex;
         flex-direction: row;
     }
-    #calltoAction{
+
+    #calltoAction {
         order: 1;
     }
-    #newsRelease{
-        order:2;
+
+    #newsRelease {
+        order: 2;
     }
-    #spotLite{
+
+    #spotLite {
         order: 3;
     }
+
     #join {
-        order: 4;
+        grid-column: 1 / 3;
+        grid-row: 1;
         display: block;
     }
-    #leftSection{
-        display: flex;
+
+    #event {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #weather {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #leftSection {
+        display: grid;
         order: 6;
     }
 
