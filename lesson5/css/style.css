@@ -76,3 +76,9 @@ li {
 		width: 480px;
 	}
 }
+
+.closebuton {
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 2em;
+}
