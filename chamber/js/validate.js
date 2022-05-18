@@ -9,6 +9,7 @@ window.onresize = () => {
     if (window.innerWidth > 815) mainnav.classList.remove('changeMenuResp')
 };
 
-document.querySelector('#currentDate').textContent = new Date().toDateString();
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+document.querySelector('#currentDate').textContent = new Date().toLocaleDateString('en-US', options);
 document.querySelector('#currentYear').textContent = new Date().getFullYear();
 document.getElementById('updateDate').textContent = new Date(document.lastModified).toISOString();
