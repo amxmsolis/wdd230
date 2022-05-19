@@ -128,7 +128,7 @@ img.logoHeader {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
+    background-color: rgba(254,254,254,.7);
     padding: 1em;
 }
 
