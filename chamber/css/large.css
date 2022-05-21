@@ -6,7 +6,7 @@
 
     main { 
         display: grid;
-        grid-template-columns: 20% 58% 20%; 
+        grid-template-columns: 20% 53% 20%; 
     }
 
     #join,
