@@ -6,7 +6,6 @@
 }
 .siteNavigation {
 	list-style: none;
-	padding: 0;
 }
 .siteNavigation li:first-child {
 	display: block;

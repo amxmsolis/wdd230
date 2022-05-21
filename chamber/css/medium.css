@@ -25,6 +25,8 @@
         grid-column: 1 / 3;
         grid-row: 1;
         display: block;
+        height:  fit-content;
+        min-height: 150px;
     }
 
     #event {

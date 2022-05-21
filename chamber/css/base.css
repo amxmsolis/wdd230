@@ -25,7 +25,6 @@ img.logoHeader {
 
 .siteNavigation {
     list-style: none;
-    padding: 0;
 }
 
 .siteNavigation li:first-child {
@@ -113,7 +112,7 @@ img.logoHeader {
 /*========================*/
 
 section {
-    padding: 1em 0em 1em 1em;
+    padding: 1em 1em 1em 1em;
 }
 .centerInfo img,
 .leftInfo img,
@@ -132,15 +131,15 @@ section {
 #join,
 #sportlight3 {
     display: none;
-    padding: 1em;
     background-color: #7ec3cc;
     justify-self: stretch;
 }
 
 #event, #newsRelease{
-    padding: 1em;
     background-color: #7ec3cc;
     justify-self: stretch;
+    height:  fit-content;
+    min-height: 150px;
 }
 
 #weather{
@@ -182,7 +181,6 @@ img.weatherimage {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 1em;
 }
 
 .bubbleLink {
@@ -196,52 +194,20 @@ img.weatherimage {
     right: 1em;
 }
 
-
-/*
-
-
-
-
-
-
-
-
-.bottom-left {
+.bubbleImg {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-
-
-
-
-*/
+    width: 10%;
+    max-width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 1em;
+    top: .2em;
+    left: .7em;
+}
+.spotsection{
+    align-content: space-between;
+    justify-content: space-around;
+}
 
 /*==================*/
 /*fotter definitions*/

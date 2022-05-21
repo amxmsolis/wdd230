@@ -25,7 +25,6 @@ img.logoHeader {
 
 .siteNavigation {
     list-style: none;
-    padding: 0;
 }
 
 .siteNavigation li:first-child {
@@ -137,7 +136,6 @@ img.logoHeader {
     top: .4em;
     left: .4em; 
     background-color: rgba(254,254,254, .7);
-    padding: 1em;
 }
 
 .textInfo {

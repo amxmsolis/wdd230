@@ -4,62 +4,64 @@
         flex-direction: row-reverse;
     }
 
-    main {
+    main { 
         display: grid;
-        grid-template-columns: 20% auto 20%; 
+        grid-template-columns: 20% 58% 20%; 
     }
 
     #join,
     #sportlight3 {
         display: block;
+        height: fit-content;
+        min-height: 150px;
     }
 
     #join {
         grid-column: 1;
-        grid-row: 1;
+        grid-row: 1/3;
+        height: fit-content;
+        min-height: 150px;
     }
+
     #event {
         grid-column: 1;
-        grid-row: 2;
-    }    
+        grid-row: 3/6;
+    }
+
     #weather {
         grid-column: 1;
-        grid-row: 3;
-        width: 100%;
+        grid-row: 6;
+        width: 80%;
     }
+
     #calltoAction {
-        grid-column: 2; 
-        grid-row: 1 / 3;
+        grid-column: 2;
+        grid-row: 1 / 4;
     }
+
     #newsRelease {
         grid-column: 2;
-        grid-row: 3;
+        grid-row: 6;
+        height: fit-content;
+        min-height: 150px;
     }
 
     #spotLite {
+        background-color: #15434a;
         grid-column: 3;
-        grid-row: 1 / 4;
+        grid-row: 1 / 7;
         align-content: space-between;
+        justify-content: space-around;
     }
 
     img.weatherimage {
         width: 100%;
     }
-/*    
-
-
-
-
-
-
-
-
-
-
+ 
     .contactInfo {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content:space-around;
     }
 
     .developerInfo {
@@ -79,6 +81,5 @@
         flex-direction: column;
         order: -1;
     }
-*/
- 
+
 }
