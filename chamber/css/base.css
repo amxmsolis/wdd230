@@ -16,9 +16,11 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     align-content:flex-start; 
+    align-items: stretch;
 }
 
 img.logoHeader {
+    align-self: stretch;
     max-width: 25%;
     height: auto;
     margin-left: 0;
@@ -144,7 +146,7 @@ section {
     background-color: #7ec3cc;
     justify-self: stretch;
     height:  fit-content;
-    min-height: 150px;
+    min-height: 250px;
 }
 
 #weather{

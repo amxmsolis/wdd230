@@ -36,7 +36,7 @@
 
     #calltoAction {
         grid-column: 2;
-        grid-row: 1 / 4;
+        grid-row: 1/4;
     }
 
     #newsRelease {
@@ -47,17 +47,17 @@
     }
 
     #spotLite {
-        background-color: #15434a;
-        grid-column: 3;
-        grid-row: 1 / 7;
-        align-content: space-between;
-        justify-content: space-around;
-    }
+       grid-column: 3;
+       grid-row: 1/7;
+       background-color: #15434a;
+     }
 
     img.weatherimage {
         width: 100%;
     }
  
+    .log
+
     .contactInfo {
         display: flex;
         flex-wrap: wrap;
