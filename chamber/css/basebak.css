@@ -110,72 +110,36 @@ img.logoHeader {
 }
 
 /*main definitions*/
-/*========================*/
-
-section {
-    padding: 1em 0em 1em 1em;
-}
 .centerInfo img,
 .leftInfo img,
 .spotsection img {
-    width: 100%;
-    overflow: auto;
+    width: 100%
 }
-.imageInfo{
-    position: relative;
-    max-width: 100px;
-    float: left;
-    clear: left;
-    top: 50%;
-}
-
-#join,
-#sportlight3 {
-    display: none;
-    padding: 1em;
-    background-color: #7ec3cc;
-    justify-self: stretch;
-}
-
-#event, #newsRelease{
-    padding: 1em;
-    background-color: #7ec3cc;
-    justify-self: stretch;
-}
-
-#weather{
-    align-items: center;
-    margin: 0 auto;
-}
-
-.spotsection{
-    width: 100%;
-    background-color: #7ec3cc;
-    justify-self: stretch;
-}
-img.weatherimage {
-   width: 75%;
-   background-color: #7ec3cc;
-}
- 
 
 .centerInfo,
 .leftInfo,
 .spotsection {
     position: relative;
-    text-align: center;
+    text-align: center; 
 }
+
 
 .seccionInfo{
     position: relative;
     text-align: center;
+    border: 10px solid #000000;
     width: 100%;
 }
+
 .titleInfo {
     position: absolute;
-    top: .5em;
-    width: 100%;
+    width: 95%;
+    top: .4em;
+    left: .4em; 
+    background-color: rgba(254,254,254, .7);
+    padding: 1em;
 }
+
 .textInfo {
     position: absolute;
     width: 90%;
@@ -195,55 +159,11 @@ img.weatherimage {
     bottom: .5em;
     right: 1em;
 }
+#join,
+#sportlight3 {
+    display: none;
+}
 
-
-/*
-
-
-
-
-
-
-
-
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
-  
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-
-
-
-
-*/
-
-/*==================*/
 /*fotter definitions*/
 footer {
     margin-top: 40px;

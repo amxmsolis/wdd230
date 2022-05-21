@@ -35,7 +35,12 @@
     #weather {
         grid-column: 2;
         grid-row: 2;
+        width: 100%;
     }
+    img.weatherimage {
+        width: 75%;
+        background-color: #7ec3cc;
+     }
 
     #leftSection {
         display: grid;

@@ -21,8 +21,7 @@ main{
  
 .centerInfo, .leftInfo,  .spotsection {
     position: relative;
-    text-align: center;
-    border: .5em solid #000000; 
+    text-align: center; 
 }
 
 .titleInfo {
