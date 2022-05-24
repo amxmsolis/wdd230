@@ -15,13 +15,16 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content:flex-start; 
-    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.contactInfoHdr{
 }
 
 img.logoHeader {
-    align-self: stretch;
-    max-width: 25%;
+    align-self:flex-start;
+    width: 100%;
+    max-width: 15em;
     height: auto;
     margin-left: 0;
     margin-top: 0;
