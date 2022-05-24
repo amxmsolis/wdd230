@@ -9,8 +9,7 @@ body {
 }
 
 /*Header definitions*/
-header {
-    width:100%;
+header { 
     background-color: #7ec3cc;
     display: flex;
     flex-direction: row;
@@ -119,9 +118,8 @@ img.logoHeader {
 
 /*main definitions*/
 /*========================*/
-
 section {
-    padding: 1em 1em 1em 1em;
+   /* padding: 1em 1em 1em 1em;*/
 }
 .centerInfo img,
 .leftInfo img,
@@ -199,7 +197,7 @@ img.weatherimage {
     border-radius: .5em;
     padding: .8em;
     text-decoration: none;
-    bottom: .5em;
+    bottom: .1em;
     right: 1em;
 }
 
@@ -217,8 +215,7 @@ img.weatherimage {
 
 /*==================*/
 /*fotter definitions*/
-footer {
-    width:100%;
+footer { 
     margin-top: 40px;
     font-size: .9em;
     background-color: #7ec3cc;

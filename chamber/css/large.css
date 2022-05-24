@@ -55,11 +55,10 @@
     img.weatherimage {
         width: 100%;
     }
- 
-    .log
 
     .contactInfo {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
