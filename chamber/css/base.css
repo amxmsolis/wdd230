@@ -9,7 +9,7 @@ body {
 }
 
 /*Header definitions*/
-header { 
+header {
     background-color: #7ec3cc;
     display: flex;
     flex-direction: row;
@@ -17,17 +17,17 @@ header {
     justify-content: flex-start;
 }
 
-.contactInfoHdr{
-}
+.contactInfoHdr {}
+
 
 img.logoHeader {
-    align-self:flex-start;
+    align-self: flex-start;
     width: 100%;
     max-width: 15em;
     height: auto;
     margin-left: 0;
     margin-top: 0;
-    
+
 }
 
 
@@ -116,11 +116,25 @@ img.logoHeader {
     background-color: #3d757d;
 }
 
+#bannerInfo {
+    background-color: #15434a;
+    color:  #ffffff;
+    font-size: 2em;
+    width: 100%;
+    padding: 1em;
+    display: none;
+}
+
 /*main definitions*/
 /*========================*/
 section {
-   /* padding: 1em 1em 1em 1em;*/
+    /* padding: 1em 1em 1em 1em;*/
 }
+
+#welcomeimage {
+    width: 100%;
+}
+
 .centerInfo img,
 .leftInfo img,
 .spotsection img {
@@ -128,7 +142,7 @@ section {
     overflow: auto;
 }
 
-.imageInfo{
+.imageInfo {
     position: relative;
     max-width: 100px;
     float: left;
@@ -143,28 +157,32 @@ section {
     justify-self: stretch;
 }
 
-#event, #newsRelease{
+
+
+#event,
+#newsRelease {
     background-color: #7ec3cc;
     justify-self: stretch;
-    height:  fit-content;
+    height: fit-content;
     min-height: 250px;
 }
 
-#weather{
+#weather {
     align-items: center;
     margin: 0 auto;
 }
 
-.spotsection{
+.spotsection {
     width: 100%;
     background-color: #7ec3cc;
     justify-self: stretch;
 }
+
 img.weatherimage {
-   width: 75%;
-   background-color: #7ec3cc;
+    width: 75%;
+    background-color: #7ec3cc;
 }
- 
+
 
 .centerInfo,
 .leftInfo,
@@ -173,15 +191,17 @@ img.weatherimage {
     text-align: center;
 }
 
-.sectionInfo{
+.sectionInfo {
     text-align: center;
     width: 100%;
 }
+
 .titleInfo {
     position: absolute;
     top: .5em;
     width: 100%;
 }
+
 .textInfo {
     position: absolute;
     width: 90%;
@@ -211,11 +231,11 @@ img.weatherimage {
     top: .2em;
     left: .7em;
 }
- 
+
 
 /*==================*/
 /*fotter definitions*/
-footer { 
+footer {
     margin-top: 40px;
     font-size: .9em;
     background-color: #7ec3cc;
