@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 * {
-    margin: .1em;
+    margin: 0em;
 }
 
 body {
@@ -27,7 +27,7 @@ img.logoHeader {
     height: auto;
     margin-left: 0;
     margin-top: 0;
-
+    padding: 1em;
 }
 
 
@@ -127,8 +127,8 @@ img.logoHeader {
 
 /*main definitions*/
 /*========================*/
-section {
-    /* padding: 1em 1em 1em 1em;*/
+main{
+    padding: 1em 1em; 
 }
 
 #welcomeimage {
@@ -157,25 +157,34 @@ section {
     justify-self: stretch;
 }
 
-
+#spotLite{
+    padding: .5em;
+    background-color: #3d757d;
+}
 
 #event,
 #newsRelease {
     background-color: #7ec3cc;
     justify-self: stretch;
     height: fit-content;
-    min-height: 250px;
+    min-height: 320px;
+}
+
+#leftSection {
+   height: 100%;
+   padding-right: .5em;
 }
 
 #weather {
     align-items: center;
-    margin: 0 auto;
+    padding: .5em; 
 }
 
 .spotsection {
     width: 100%;
     background-color: #7ec3cc;
     justify-self: stretch;
+    padding-top: 1em;
 }
 
 img.weatherimage {
@@ -236,7 +245,7 @@ img.weatherimage {
 /*==================*/
 /*fotter definitions*/
 footer {
-    margin-top: 40px;
+    margin-top: 0px;
     font-size: .9em;
     background-color: #7ec3cc;
     text-align: center;
@@ -245,6 +254,7 @@ footer {
 .logoFooter {
     width: 10rem;
     height: auto;
+    padding: 1em;
 }
 
 footer li {
