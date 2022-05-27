@@ -81,15 +81,12 @@
             </section>
 
             <section id="weather" class="leftInfo">
-                <img class="weatherimage" src="images/transp.png" alt="">
                 <div class="sectionInfo">
+                    <img class="weatherimage" src="images/transp.png" alt="">
                     <h2 class="titleInfo">Weather</h2>
-                    <p class="textInfo">
-                        Wind Speed: 2.5 km/h<br>
-                        Wind Chill: N/A</p>
+                    <p class="textInfo">Temp: <span  id="tempVar" ></span> °F<br>Speed: <span  id="speedVar" ></span> mph<br>Wind Chill: <span id="windVar" ></span></p>
                     <img class="bubbleImg" src="images/weather.svg" alt="">
                 </div>
-
             </section>
         </div>
 
@@ -153,6 +150,7 @@
 
     </footer>
     <script src="js/validate.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>

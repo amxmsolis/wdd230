@@ -178,6 +178,9 @@ main{
 #weather {
     align-items: center;
     padding: .5em; 
+    height: 100%;
+    background-color: #55838a;
+    color: #ffffff;
 }
 
 .spotsection {
@@ -189,7 +192,6 @@ main{
 
 img.weatherimage {
     width: 75%;
-    background-color: #7ec3cc;
 }
 
 
