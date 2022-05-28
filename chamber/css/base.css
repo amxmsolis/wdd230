@@ -49,6 +49,11 @@ img.logoHeader {
     flex-wrap: nowrap;
 }
 
+.socialLogo{
+    width: 1em;
+    border: 3px solid #15434a;
+    border-radius: 25%;
+}
 .siteNavigation a,
 .socialMedia li {
     font-style: italic;
@@ -179,7 +184,7 @@ main{
     align-items: center;
     padding: .5em; 
     height: 100%;
-    background-color: #55838a;
+    background-color: #15434a;
     color: #ffffff;
 }
 
