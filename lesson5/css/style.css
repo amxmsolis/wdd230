@@ -50,7 +50,9 @@ label {
 	margin: 1rem;
 	padding: 1rem;
 }
-
+#alertInfo{
+	color: red;
+}
 .list {
 	margin: 0.2rem;
 }
