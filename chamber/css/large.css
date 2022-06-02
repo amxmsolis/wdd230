@@ -5,6 +5,7 @@
     }
 
     main { 
+        justify-content: center;
         display: grid;
         grid-template-columns: 20% 53% 20%; 
     }
