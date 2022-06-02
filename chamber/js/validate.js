@@ -17,6 +17,6 @@ document.getElementById('updateDate').textContent = new Date(document.lastModifi
 
 
 const d = new Date();
-if (( d.getDay()  == 1) ||  ( d.getDay()  == 2)) {
+if (( d.getDay()  == 1) || ( d.getDay()  == 2)) {
     document.querySelector('#bannerInfo').style.display="block"; 
 };
