@@ -4,18 +4,18 @@
         flex-direction: row-reverse;
     }
 
-    main { 
+    main {
         justify-content: center;
         display: grid;
-        grid-template-columns: 20% 53% 20%; 
+        grid-template-columns: 20% 53% 20%;
     }
 
-#leftSection{
-    grid-column: 1;
-    grid-row: 1/4;
-    display: grid;
-    grid-column: auto;
-}
+    #leftSection {
+        grid-column: 1;
+        grid-row: 1/4;
+        display: grid;
+        grid-column: auto;
+    }
 
     #event {
         grid-row: 1;
@@ -49,16 +49,16 @@
         min-height: 150px;
     }
 
-    .centerInfo{
+    .centerInfo {
         padding-right: .5em;
     }
 
     #spotLite {
-       grid-column: 3;
-       grid-row: 1/4;
-       background-color: #15434a;
-       display: grid; 
-     }
+        grid-column: 3;
+        grid-row: 1/4;
+        background-color: #15434a;
+        display: grid;
+    }
 
     img.weatherimage {
         width: 100%;
