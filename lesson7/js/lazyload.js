@@ -21,7 +21,7 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     })
 }, setsImages);
 
-lazyImages.forEach(image =>{
+lazyImages.forEach(image => {
     imgObserver.observe(image);
 });
 

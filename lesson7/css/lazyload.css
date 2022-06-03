@@ -1,16 +1,18 @@
-main{
+main {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
-.misgatos{
+
+.misgatos {
     width: 100%;
     max-width: 300px;
 }
+
 .misgatos img[data-src] {
     filter: blur(0.2em);
-  }
-  
+}
+
 .misgatos img {
     filter: blur(0em);
     transition: filter 1s;
-  }
+}
