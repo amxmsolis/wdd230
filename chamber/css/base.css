@@ -272,7 +272,10 @@ img.weatherimage {
     transition: filter 1s;
 }
 
-
+.lastVisit{
+    background-color: #15434a;
+    color:#ffffff;
+}
 /*==================*/
 /*fotter definitions*/
 footer {

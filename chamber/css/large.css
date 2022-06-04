@@ -73,6 +73,10 @@
         border-radius: 0;
     }
  
+    .lastVisit{
+        grid-column: span 3;
+        
+    }
     /*footer*/
     .contactInfo {
         display: flex;
