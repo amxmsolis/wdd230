@@ -51,6 +51,11 @@
         background-color: #15434a;
     }
 
+
+    .imageCity:hover {
+        border-radius: 0;
+    }
+
     .developerInfo {
         border-top: 1.5px solid #15434a;
         padding-top: 1em;

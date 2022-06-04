@@ -249,6 +249,30 @@ img.weatherimage {
 }
 
 
+
+/*discover options*/
+.cityTownList{
+    width: auto;
+} 
+.cityDescription h2{
+    padding-top: 1em;
+}
+.imageCity {
+    width: 100%;
+    border: 3px solid #15434a;
+    border-radius: 10%;
+}
+
+.imageCity img[data-src] {
+    filter: blur(0.2em);
+}
+
+.imageCity img {
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+
 /*==================*/
 /*fotter definitions*/
 footer {

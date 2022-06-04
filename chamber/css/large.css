@@ -64,6 +64,16 @@
         width: 100%;
     }
 
+
+    .cityTownList{
+        grid-column: span 3;
+    }
+
+    .imageCity:hover {
+        border-radius: 0;
+    }
+ 
+    /*footer*/
     .contactInfo {
         display: flex;
         flex-direction: row;
@@ -89,4 +99,5 @@
         order: -1;
     }
 
+ 
 }
