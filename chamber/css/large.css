@@ -69,6 +69,9 @@
         grid-column: span 3;
     }
 
+    .imageCity{
+        max-width: 500px;
+    }
     .imageCity:hover {
         border-radius: 0;
     }
