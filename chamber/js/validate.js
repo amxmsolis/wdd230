@@ -9,16 +9,14 @@ window.onresize = () => {
     if (window.innerWidth > 815) mainnav.classList.remove('changeMenuResp')
 };
 
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'};
 document.querySelector('#currentDate').textContent = new Date().toLocaleDateString('en-US', options);
 document.querySelector('#currentYear').textContent = new Date().getFullYear();
 document.getElementById('updateDate').textContent = new Date(document.lastModified).toISOString();
 
-
-
 const d = new Date();
-if (( d.getDay()  == 1) || ( d.getDay()  == 2)) {
-    document.querySelector('#bannerInfo').style.display="block"; 
+if ((d.getDay() == 1) || (d.getDay() == 2)) {
+    document.querySelector('#bannerInfo').style.display = "block";
 };
 
 /*20220601 LazyLoad */
@@ -49,3 +47,14 @@ lazyImages.forEach(image => {
     imgObserver.observe(image);
 });
 
+
+// 20220604 Local Storage
+const visitsValue = document.querySelector("#lastVisit");
+let numVisits = Number(window.localStorage.getItem("visits"));
+if (numVisits !== 0) {
+    visitsValue.textContent = numVisits;
+} else {
+    visitsValue.textContent = "Your first timne, welcome!";
+}
+numVisits++;
+localStorage.setItem("visits", numVisits);
