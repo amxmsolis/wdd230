@@ -8,7 +8,10 @@ function placeholderImage(img) {
     img.src = srcImage;
 }
 
-const setsImages = {};
+const setsImages = {
+  threshold: 0,
+  rootMargin: '0px 0px 10px 0px'
+};
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
