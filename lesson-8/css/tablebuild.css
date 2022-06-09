@@ -6,11 +6,13 @@ table {
     border-collapse: collapse;
     width: 100%;
     max-width: 350px;
+    box-shadow: .2em .2em .5em .5em #caf0f8;
 }
 
 /*https://coolors.co/palette/03045e-023e8a-0077b6-0096c7-00b4d8-48cae4-90e0ef-ade8f4-caf0f8*/
 thead {
     background-color: #00b4d8;
+    font-weight: bold;
 }
 
 tbody {
@@ -19,18 +21,32 @@ tbody {
 
 tfoot {
     background-color: #00b4d8;
+    font-size: .8em;
 }
+
 
 td,
 th {
     border: 1px solid #00b4d8;
     padding: 8px;
+    text-align: center;
 }
-
-tr:nth-child(even) {
+ 
+tbody tr:nth-child(even) {
     background-color: #caf0f8;
 }
 
-th .subtitle {
-    color: #000000;
+.tableSubitle {
+    background-color: #0077b6;
+    color: #ffffff;
+}
+
+tr td.importantContent {
+    background-color: #0077b6;
+    color: #ffffff;
+
+}
+
+tr td.remark{
+    font-style: italic; 
 }
