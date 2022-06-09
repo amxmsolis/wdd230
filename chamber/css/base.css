@@ -276,6 +276,23 @@ img.weatherimage {
     background-color: #15434a;
     color:#ffffff;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+
+}
+.fieldDescription{
+    font-size: .9em;
+    font-weight: bold;
+}
+
+tbody td:nth-child(even) {
+    background-color: #bee2e7;
+}
+
 /*==================*/
 /*fotter definitions*/
 footer {
