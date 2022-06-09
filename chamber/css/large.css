@@ -85,6 +85,10 @@
         max-width: 700px;
     }
     
+    .joinRegistrationForm{
+        grid-column: span 3;
+        max-width: 700px;
+    }
     /*footer*/
     .contactInfo {
         display: flex;

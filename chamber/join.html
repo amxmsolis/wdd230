@@ -18,7 +18,8 @@
 <body>
     <header>
         <div class="contactInfoHdr">
-            <a href="../chamber/"><img class="logoHeader" src="images/mccoc-logo-trasp.webp" alt="Welcome to Mexico City Chambers of Commerce"></a>
+            <a href="../chamber/"><img class="logoHeader" src="images/mccoc-logo-trasp.webp"
+                    alt="Welcome to Mexico City Chambers of Commerce"></a>
             <h1 class="describeSocial">Mexico City Chambers of Commerce</h1>
         </div>
 
@@ -44,42 +45,49 @@
     </header>
 
     <main>
-<form id="registrationForm" method="get" target="_self" action="thankyou.html">
-    <label for="firstName" class="fieldDescription">First name <span class="alertFirstName"></span></label> 
-    <input type="text" name="firstName" id="firstName" value="" required>
+        <section class="joinRegistrationForm">
+        <h2>Join to Mexico City Chambers of Commerce</h2>
+        <form id="registrationForm" method="get" target="_self" action="thankyou.html">
+            <label for="firstName" class="fieldDescription">First name <span class="alertFirstName"></span></label>
+            <input type="text" name="firstName" id="firstName" value="" required>
 
-    <label for="lastName" class="fieldDescription">Last name <span class="alertLastName"></span></label> 
-    <input type="text" name="lastName" id="lastName" value="" required>
+            <label for="lastName" class="fieldDescription">Last name <span class="alertLastName"></span></label>
+            <input type="text" name="lastName" id="lastName" value="" required>
 
-    <label for="title" class="fieldDescription">Title <span class="alertTitle"></span></label> 
-    <input type="text" name="title" id="title" value="" pattern="[A-Za-z\s-]{7,}">
+            <label for="title" class="fieldDescription">Title <span class="alertTitle"></span></label>
+            <input type="text" name="title" id="title" value="" pattern="[A-Za-z\s-]{7,}">
 
-    <label for="email" class="fieldDescription">eMail <span class="alertEmail"></span></label> 
-    <input type="email" name="email" id="email" value="" required>
+            <label for="email" class="fieldDescription">eMail <span class="alertEmail"></span></label>
+            <input type="email" name="email" id="email" value="" required>
 
-    <label for="mobile" class="fieldDescription">Cell phone number <span class="alertMobile"></span></label> 
-    <input type="tel" name="mobile" id="mobile" value="" required>
+            <label for="mobile" class="fieldDescription">Cell phone number <span class="alertMobile"></span></label>
+            <input type="tel" name="mobile" id="mobile" value="" required>
 
-    <label for="jobPosition" class="fieldDescription">Job position <span class="alertJobPosition"></span></label> 
-    <input type="text" name="jobPosition" id="jobPosition" value="" required>
+            <label for="jobPosition" class="fieldDescription">Job position <span
+                    class="alertJobPosition"></span></label>
+            <input type="text" name="jobPosition" id="jobPosition" value="" required>
 
-    <label for="membership" class="fieldDescription">Membership level <span class="alertMemberShip"></span></label> 
-    <select name="memberShipLevel" id="membership">
-        <option value="Non Profit">Non Profit</option>
-        <option value="Bronze">Bronze</option>
-        <option value="Silver">Silver</option>
-        <option value="Gold">Gold</option>
-      </select>
+            <p class="fieldDescription">Membership level:</p>
+            <div><input type="radio" id="NonProfit" name="memberShipLevel" value="Non Profit">
+                  <label for="NonProfit">Non Profit</label> </div>
+            <div><input type="radio" id="Bronze" name="memberShipLevel" value="Bronze">
+                  <label for="Bronze">Bronze</label> </div>
+            <div><input type="radio" id="Silver" name="memberShipLevel" value="Silver">
+                  <label for="Silver">Silver</label> </div>
+            <div><input type="radio" id="Gold" name="memberShipLevel" value="Gold">
+                  <label for="Gold">Gold</label> </div>
 
-      <label for="businessDescription" class="fieldDescription">Business description <span class="alertJobPosition"></span></label> 
-      <textarea name="businessDescription" id="businessDescription"></textarea>
-  
-      <input type="hidden" id="dateTime" name="dateTime" value="">
 
-      <input type="submit" value="Join">
+            <label for="businessDescription" class="fieldDescription">Business description <span
+                    class="alertJobPosition"></span></label>
+            <textarea name="businessDescription" id="businessDescription"></textarea>
 
-</form>
+            <input type="hidden" id="dateTime" name="dateTime" value="">
 
+            <input type="submit" value="Join">
+
+        </form>
+    </section>
 
 
 
