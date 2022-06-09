@@ -1,3 +1,5 @@
+document.getElementById('dateTime').value = new Date().toString();
+
 window.addEventListener("load", () => {
     const params = new URL(document.location).searchParams;
     const firstName = params.get("firstName");
