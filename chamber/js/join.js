@@ -11,12 +11,12 @@ window.addEventListener("load", () => {
     const dateTime = params.get("dateTime");
   
     document.querySelector("#firstName").innerHTML = firstName;
-    document.getElementById("lastName").innerHTML = lastName;
-    document.getElementById("title").innerHTML = title;
-    document.getElementById("email").innerHTML = email;
-    document.getElementById("mobile").innerHTML = mobile;
-    document.getElementById("jobPosition").innerHTML = jobPosition;
-    document.getElementById("memberShipLevel").innerHTML = memberShipLevel;
-    document.getElementById("businessDescription").innerHTML = businessDescription;
-    document.getElementById("dateTime").innerHTML = dateTime;
+    document.querySelector("#lastName").innerHTML = lastName;
+    document.querySelector("#title").innerHTML = title;
+    document.querySelector("#email").innerHTML = email;
+    document.querySelector("#mobile").innerHTML = mobile;
+    document.querySelector("#jobPosition").innerHTML = jobPosition;
+    document.querySelector("#memberShipLevel").innerHTML = memberShipLevel;
+    document.querySelector("#businessDescription").innerHTML = businessDescription;
+    document.querySelector("#dateTime").innerHTML = dateTime;
   });
