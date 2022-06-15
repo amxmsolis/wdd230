@@ -45,8 +45,8 @@ function displaycompanies(company) {
   parrafothird.textContent = `CP ${company.cp}`;
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   portrait.setAttribute('src', company.imageurl);
-  portrait.setAttribute('alt', `Portait of ${company.name} ${company.companyname}`);
-  portrait.setAttribute('loading', 'lazy');
+  portrait.setAttribute('alt', `Logo of ${company.companyname}`);
+  portrait.setAttribute('loading', 'eager');
 
   // Add/append the section(card) with the h2 element
   card.setAttribute('class', 'companyStyle');
