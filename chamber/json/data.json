@@ -1,0 +1,187 @@
+{
+    "companies": [
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Signacom",
+        "street": "2564 Periferico Sur",
+        "city": "Gustavo A Madero, CDMX",
+        "cp": "32659",
+        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Signacom",
+        "street": "2564 Periferico Sur",
+        "city": "Gustavo A Madero, CDMX",
+        "cp": "32659",
+        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Signacom",
+        "street": "2564 Periferico Sur",
+        "city": "Gustavo A Madero, CDMX",
+        "cp": "32659",
+        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Signacom",
+        "street": "2564 Periferico Sur",
+        "city": "Gustavo A Madero, CDMX",
+        "cp": "32659",
+        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Signacom",
+        "street": "2564 Periferico Sur",
+        "city": "Gustavo A Madero, CDMX",
+        "cp": "32659",
+        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
+      },
+      {
+        "companyname": "Rapsodia Corp.",
+        "street": "216 Revolución",
+        "city": "Benito Juarez, CDMX",
+        "cp": "11520",
+        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
+      },
+      {
+        "companyname": "Signacom",
+        "street": "2564 Periferico Sur",
+        "city": "Gustavo A Madero, CDMX",
+        "cp": "32659",
+        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
+      },
+      {
+        "companyname": "Loren Corp.",
+        "street": "1234 Insurgentes",
+        "city": "Alvaro Obregon, CDMX",
+        "cp": "01180",
+        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
+      }
+
+    ]
+  }

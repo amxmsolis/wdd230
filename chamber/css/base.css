@@ -49,11 +49,12 @@ img.logoHeader {
     flex-wrap: nowrap;
 }
 
-.socialLogo{
+.socialLogo {
     width: 1em;
     border: 3px solid #15434a;
     border-radius: 25%;
 }
+
 .siteNavigation a,
 .socialMedia li {
     font-style: italic;
@@ -123,7 +124,7 @@ img.logoHeader {
 
 #bannerInfo {
     background-color: #15434a;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 2em;
     width: 100%;
     padding: 1em;
@@ -132,8 +133,8 @@ img.logoHeader {
 
 /*main definitions*/
 /*========================*/
-main{
-    padding: 1em 1em; 
+main {
+    padding: 1em 1em;
 }
 
 #welcomeimage {
@@ -162,7 +163,7 @@ main{
     justify-self: stretch;
 }
 
-#spotLite{
+#spotLite {
     padding: .5em;
     background-color: #3d757d;
 }
@@ -176,13 +177,13 @@ main{
 }
 
 #leftSection {
-   height: 100%;
-   padding-right: .5em;
+    height: 100%;
+    padding-right: .5em;
 }
 
 #weather {
     align-items: center;
-    padding: .5em; 
+    padding: .5em;
     height: 100%;
     background-color: #15434a;
     color: #ffffff;
@@ -251,12 +252,14 @@ img.weatherimage {
 
 
 /*discover options*/
-.cityTownList{
+.cityTownList {
     width: auto;
-} 
-.cityDescription h2{
+}
+
+.cityDescription h2 {
     padding-top: 1em;
 }
+
 .imageCity {
     width: 100%;
     border: 3px solid #15434a;
@@ -272,16 +275,17 @@ img.weatherimage {
     transition: filter 1s;
 }
 
-.lastVisit{
+.lastVisit {
     background-color: #15434a;
-    color:#ffffff;
+    color: #ffffff;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
-} 
-.fieldDescription{
+}
+
+.fieldDescription {
     font-size: .9em;
     font-weight: bold;
 }
@@ -290,6 +294,25 @@ form{
     display: flex;
     flex-direction: column;
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.companyStyle {
+    margin: 10px;
+    width: 100%;
+    max-width: 200px;
+    border: 2px solid #15434a;
+    text-align: center;
+}
+
+.companyStyle img {
+    width: 100%;
+    max-width: 150px;
+}
+
 
 /*==================*/
 /*fotter definitions*/
