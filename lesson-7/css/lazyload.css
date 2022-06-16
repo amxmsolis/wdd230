@@ -6,15 +6,17 @@ main {
 
 .misgatos {
     width: 400px;
+    box-shadow: .1em .1em .5em .5em grey;
 }
 
 .misgatos img[data-src] {
-    filter: blur(2rem);
-
+    filter: blur(0px);
+    -webkit-filter:  blur(0px);
 }
-
+.misgatos img[src] {
+    filter: blur(8px);
+    -webkit-filter:  blur(8px);
+}
 .misgatos img {
-    filter: blur(0em);
     transition: filter 0.5s;
-    box-shadow: .1em .1em .5em .5em grey;
 }
