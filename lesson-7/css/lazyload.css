@@ -9,17 +9,13 @@ main {
     box-shadow: .1em .1em .5em .5em grey;
 }
 
-.misgatos img[data-src] {
+ img[data-src].misgatos {
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
 
-.misgatos img[src] {
+img.misgatos {
     filter: blur(8px);
     -webkit-filter: blur(8px);
-
-}
-
-.misgatos img {
     transition: filter 0.5s;
 }
