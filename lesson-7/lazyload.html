@@ -2,40 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style.css">-->
-    <link rel="stylesheet" href="css/lazyload.css">
-    <title>WDD230 WK7 | Lazy load</title>
-    <meta name="description" content="WK07 Lazy loads example">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="css/lazyload.css">
+        <title>WDD230 WK7 | Lazy load</title>
+        <meta name="description" content="WK07 Lazy loads example">
 </head>
 
 <body>
-    <main>
-        <h1 class="headerclass">Lazy Load by Monica Solis</h1>
-        <picture><img id="1" class="misgatos" src="../images/placeholder.png" 
-                data-src="https://placekitten.com/200/300" alt="Dummy image of a cat one"></picture>
-        <picture><img id="2" class="misgatos" src="../images/placeholder.png"
-                data-src="https://placekitten.com/g/200/300" alt="The nice cat two"></picture>
-        <picture><img id="3" class="misgatos" src="../images/placeholder.png"
-                data-src="https://placekitten.com/200/300" alt="Kitty cat three"></picture>
-        <picture><img id="4" class="misgatos" src="../images/placeholder.png"
-                data-src="https://placekitten.com/200/300?id=4" alt="Anoher cat four"></picture>
-        <picture><img id="5" class="misgatos" src="../images/placeholder.png"
-                data-src="https://placekitten.com/g/200/300?id=5" alt="Nice cat five"></picture>
-        <picture><img id="6" class="misgatos" src="../images/placeholder.png"
-                data-src="https://placekitten.com/200/300?id=6" alt="Kitten cat six"></picture>
+        <main>
+                <h1 class="headerclass">Lazy Load by Monica Solis</h1>
+                <picture><img id="1" class="misgatos" src="../images/placeholder.png" loading="lazy"
+                                data-src="https://placekitten.com/200/300" alt="Dummy image of a cat one"></picture>
+                <picture><img id="2" class="misgatos" src="../images/placeholder.png" loading="lazy"
+                                data-src="https://placekitten.com/g/200/300" alt="The nice cat two"></picture>
+                <picture><img id="3" class="misgatos" src="../images/placeholder.png" loading="lazy"
+                                data-src="https://placekitten.com/200/300" alt="Kitty cat three"></picture>
+                <picture><img id="4" class="misgatos" src="../images/placeholder.png" loading="lazy"
+                                data-src="https://placekitten.com/200/300?id=4" alt="Anoher cat four"></picture>
+                <picture><img id="5" class="misgatos" src="../images/placeholder.png" loading="lazy"
+                                data-src="https://placekitten.com/g/200/300?id=5" alt="Nice cat five"></picture>
+                <picture><img id="6" class="misgatos" src="../images/placeholder.png" loading="lazy"
+                                data-src="https://placekitten.com/200/300?id=6" alt="Kitten cat six"></picture>
 
-    </main>
+        </main>
 
-    <footer>
-        <p class="signaturetext">&copy; <span id="currentYear"></span> .:|:. Monica Solis .:|:. México .:|:. <a
-                href="../" title="Goto home page">Home</a> </p>
-        <p class="footerdate">Last Updated <span id="updateDate"></span></p>
-    </footer>
-    <script src="js/lazyload.js"></script>
-    <script src="../js/footer.js"></script>
+        <footer>
+                <p class="signaturetext">&copy; <span id="currentYear"></span> .:|:. Monica Solis .:|:. México .:|:. <a
+                                href="../" title="Goto home page">Home</a> </p>
+                <p class="footerdate">Last Updated <span id="updateDate"></span></p>
+        </footer>
+        <script src="js/lazyload.js" defer></script>
+        <script src="../js/footer.js"></script>
 </body>
 
 </html>
