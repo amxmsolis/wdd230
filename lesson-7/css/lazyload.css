@@ -3,19 +3,16 @@ main {
     display: flex;
     flex-direction: column;
 }
-
-.misgatos {
-    width: 400px;
-    box-shadow: .1em .1em .5em .5em grey;
-}
-
- img[data-src].misgatos {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
+.misgatos{
+    width: 100%;
+    max-width: 400px;
 }
 
 img.misgatos {
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(0.2em);
+}
+
+ img[data-src].misgatos {
+    filter: blur(0em);
     transition: filter 0.5s;
 }
