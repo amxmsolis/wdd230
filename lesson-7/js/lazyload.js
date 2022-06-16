@@ -9,8 +9,7 @@ function placeholderImage(img) {
 }
 
 const setsImages = {
-  threshold: 0,
-  rootMargin: '0px 0px 10px 0px'
+  threshold: 0.8,
 };
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
@@ -19,7 +18,7 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
             return;
         } else {
             placeholderImage(entry.target);
-            imgObserver.unobserve(entry.target);
+            imgObserver.unobserve(entry.target); 
         }
     })
 }, setsImages);
@@ -27,35 +26,3 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 lazyImages.forEach(image => {
     imgObserver.observe(image);
 });
-
-
-/*
-const loadImages = (image) => {
-    image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {
-        image.removeAttribute('data-src');
-    };
-};
-
-images.forEach((img) => {
-    loadImages(img);
-});
-
-if('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-      items.forEach((item) => {
-        if(item.isIntersecting) {
-          loadImages(item.target);
-          observer.unobserve(item.target);
-        }
-      });
-    });
-    images.forEach((img) => {
-      observer.observe(img);
-    });
-  } else {
-    images.forEach((img) => {
-      loadImages(img);
-    });
-  }
-  */

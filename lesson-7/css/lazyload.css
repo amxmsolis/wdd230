@@ -1,18 +1,20 @@
 main {
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
 
 .misgatos {
-    width: 100%;
-    max-width: 300px;
+    width: 400px;
 }
 
 .misgatos img[data-src] {
-    filter: blur(0.2em);
+    filter: blur(2rem);
+
 }
 
 .misgatos img {
     filter: blur(0em);
-    transition: filter 1s;
+    transition: filter 0.5s;
+    box-shadow: .1em .1em .5em .5em grey;
 }
