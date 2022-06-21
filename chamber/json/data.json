@@ -5,6 +5,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://loren.com.mx",
+        "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
       },
       {
@@ -12,6 +15,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/creative-abstract-3d-sphere-logo-600w-1971786323.jpg"
       },
       {
@@ -19,6 +25,9 @@
         "street": "2564 Periferico Sur",
         "city": "Gustavo A Madero, CDMX",
         "cp": "32659",
+        "phone": "+52 55 59999401",
+        "website": "https://signacom.com.mx",
+        "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
@@ -26,6 +35,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
@@ -33,6 +45,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/eco-energy-logo-made-white-600w-1872611158.jpg"
       },
       {
@@ -40,6 +55,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Bronze",
         "imageurl": "https://image.shutterstock.com/image-vector/infinity-logo-template-260nw-1238846482.jpg"
       },
       {
@@ -47,6 +65,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Bronze",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
@@ -54,6 +75,9 @@
         "street": "2564 Periferico Sur",
         "city": "Gustavo A Madero, CDMX",
         "cp": "32659",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Bronze",
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
@@ -61,6 +85,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Bronze",
         "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
       },
       {
@@ -68,6 +95,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Silver",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
@@ -75,6 +105,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Silver",
         "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
       },
       {
@@ -82,6 +115,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Silver",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
@@ -89,6 +125,9 @@
         "street": "2564 Periferico Sur",
         "city": "Gustavo A Madero, CDMX",
         "cp": "32659",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Silver",
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
@@ -96,6 +135,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "Silver",
         "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
       },
       {
@@ -103,6 +145,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
       },
       {
@@ -110,6 +155,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
@@ -117,6 +165,9 @@
         "street": "2564 Periferico Sur",
         "city": "Gustavo A Madero, CDMX",
         "cp": "32659",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
@@ -124,6 +175,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
       },
       {
@@ -131,6 +185,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
       },
       {
@@ -138,6 +195,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
@@ -145,6 +205,9 @@
         "street": "2564 Periferico Sur",
         "city": "Gustavo A Madero, CDMX",
         "cp": "32659",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
@@ -152,6 +215,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
       },
       {
@@ -159,6 +225,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
       },
       {
@@ -166,6 +235,9 @@
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
@@ -173,6 +245,9 @@
         "street": "2564 Periferico Sur",
         "city": "Gustavo A Madero, CDMX",
         "cp": "32659",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
@@ -180,6 +255,9 @@
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
+        "phone": "+52 55 59999401",
+        "website": "https://rapsodia.com.mx",
+        "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
       }
 

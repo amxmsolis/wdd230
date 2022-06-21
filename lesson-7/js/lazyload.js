@@ -18,7 +18,7 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
       return;
     } else {
       placeholderImage(entry.target);
-      imgObserver.unobserve(entry.target);
+      imgObserver.unobserve(entry.target); 
     }
   })
 }, setsImages);
