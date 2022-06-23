@@ -1,6 +1,7 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
+const imageUrl = document.querySelector('#image-url');
 const captionDesc = document.querySelector('figcaption');
 
 
@@ -32,7 +33,8 @@ async function apiFetch() {
     const imageDescription=weatherData.weather[0].description;
     weatherIcon.setAttribute('src', imageSrc);
     weatherIcon.setAttribute('alt',`A ${imageDescription} icon is shown` );
-    
+
     captionDesc.setAttribute('class', 'capitalizeClass');
     captionDesc.innerHTML = `${imageDescription}`;
+    imageUrl.innerHTML=imageSrc;
   }
