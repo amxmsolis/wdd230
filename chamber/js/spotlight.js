@@ -31,6 +31,7 @@ function displaycompanies(company) {
   phone.textContent = `${company.phone}`;
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+  card.setAttribute('id', `sportlight${company.idComp}`);
   portrait.setAttribute('src', company.imageurl);
   portrait.setAttribute('alt', `Logo of ${company.companyname}`);
   portrait.setAttribute('loading', 'eager');

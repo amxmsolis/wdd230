@@ -1,56 +1,62 @@
 {
     "companies": [
       {
+        "idComp": "1",
         "companyname": "Loren Corp.",
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
         "cp": "01180",
-        "phone": "+52 55 59999401",
+        "phone": "+52 55 52456235",
         "website": "https://loren.com.mx",
         "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
       },
       {
+        "idComp": "2",
         "companyname": "Rapsodia Corp.",
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
         "cp": "11520",
-        "phone": "+52 55 59999401",
+        "phone": "+52 55 22331566",
         "website": "https://rapsodia.com.mx",
         "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/creative-abstract-3d-sphere-logo-600w-1971786323.jpg"
       },
       {
+        "idComp": "3",
         "companyname": "Signacom",
-        "street": "2564 Periferico Sur",
+        "street": "2564 Periferico Norte",
         "city": "Gustavo A Madero, CDMX",
         "cp": "32659",
-        "phone": "+52 55 59999401",
+        "phone": "+52 55 95623435",
         "website": "https://signacom.com.mx",
         "membership": "Gold",
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
-        "companyname": "Rapsodia Corp.",
-        "street": "216 Revolución",
-        "city": "Benito Juarez, CDMX",
-        "cp": "11520",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Gold",
+        "idComp": "4",
+        "companyname": "Nature Care",
+        "street": "216 Sur",
+        "city": "Miguel Hidalgo, CDMX",
+        "cp": "00110",
+        "phone": "+52 55 85263175",
+        "website": "https://naturecare.com",
+        "membership": "Silver",
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
+        "idComp": "5",
+        "companyname": "Eco Energy",
+        "street": "1234 Presidente Cardenas",
+        "city": "Xochimilco, CDMX",
+        "cp": "15892",
         "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Gold",
+        "website": "https://ecoenergy.mx",
+        "membership": "Silver",
         "imageurl": "https://image.shutterstock.com/image-vector/eco-energy-logo-made-white-600w-1872611158.jpg"
       },
       {
+        "idComp": "6",
         "companyname": "Loren Corp.",
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
@@ -61,6 +67,7 @@
         "imageurl": "https://image.shutterstock.com/image-vector/infinity-logo-template-260nw-1238846482.jpg"
       },
       {
+        "idComp": "7",
         "companyname": "Rapsodia Corp.",
         "street": "216 Revolución",
         "city": "Benito Juarez, CDMX",
@@ -71,96 +78,7 @@
         "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
       },
       {
-        "companyname": "Signacom",
-        "street": "2564 Periferico Sur",
-        "city": "Gustavo A Madero, CDMX",
-        "cp": "32659",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Bronze",
-        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
-      },
-      {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Bronze",
-        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
-      },
-      {
-        "companyname": "Rapsodia Corp.",
-        "street": "216 Revolución",
-        "city": "Benito Juarez, CDMX",
-        "cp": "11520",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Silver",
-        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
-      },
-      {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Silver",
-        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
-      },
-      {
-        "companyname": "Rapsodia Corp.",
-        "street": "216 Revolución",
-        "city": "Benito Juarez, CDMX",
-        "cp": "11520",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Silver",
-        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
-      },
-      {
-        "companyname": "Signacom",
-        "street": "2564 Periferico Sur",
-        "city": "Gustavo A Madero, CDMX",
-        "cp": "32659",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Silver",
-        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
-      },
-      {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "Silver",
-        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
-      },
-      {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
-      },
-      {
-        "companyname": "Rapsodia Corp.",
-        "street": "216 Revolución",
-        "city": "Benito Juarez, CDMX",
-        "cp": "11520",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
-      },
-      {
+        "idComp": "8",
         "companyname": "Signacom",
         "street": "2564 Periferico Sur",
         "city": "Gustavo A Madero, CDMX",
@@ -171,86 +89,7 @@
         "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
       },
       {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
-      },
-      {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
-      },
-      {
-        "companyname": "Rapsodia Corp.",
-        "street": "216 Revolución",
-        "city": "Benito Juarez, CDMX",
-        "cp": "11520",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
-      },
-      {
-        "companyname": "Signacom",
-        "street": "2564 Periferico Sur",
-        "city": "Gustavo A Madero, CDMX",
-        "cp": "32659",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
-      },
-      {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
-      },
-      {
-        "companyname": "Loren Corp.",
-        "street": "1234 Insurgentes",
-        "city": "Alvaro Obregon, CDMX",
-        "cp": "01180",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/tree-leaf-vector-logo-design-600w-1504160549.jpg"
-      },
-      {
-        "companyname": "Rapsodia Corp.",
-        "street": "216 Revolución",
-        "city": "Benito Juarez, CDMX",
-        "cp": "11520",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/nature-care-logo-consisting-green-600w-608743961.jpg"
-      },
-      {
-        "companyname": "Signacom",
-        "street": "2564 Periferico Sur",
-        "city": "Gustavo A Madero, CDMX",
-        "cp": "32659",
-        "phone": "+52 55 59999401",
-        "website": "https://rapsodia.com.mx",
-        "membership": "NonProfit",
-        "imageurl": "https://image.shutterstock.com/image-vector/clover-leaf-logo-vector-icon-600w-1766406620.jpg"
-      },
-      {
+        "idComp": "9",
         "companyname": "Loren Corp.",
         "street": "1234 Insurgentes",
         "city": "Alvaro Obregon, CDMX",
@@ -260,6 +99,7 @@
         "membership": "NonProfit",
         "imageurl": "https://image.shutterstock.com/image-vector/abstract-fashion-logo-template-600w-612071063.jpg"
       }
+      
 
     ]
   }

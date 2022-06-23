@@ -24,23 +24,8 @@ function displaycompanies(company) {
   let portrait = document.createElement('img');
   let website = document.createElement('a');
   let phone = document.createElement('p');
-  let tipoorden;
-  // Change the textContent property of the h2 element to contain the company's full name
-  if (company.order == 1) {
-    tipoorden = "st"
-  } else if (company.order == 2) {
-    tipoorden = "nd"
-  } else if (company.order == 3) {
-    tipoorden = "rd"
-  } else {
-    tipoorden = "th"
-  }
-  if (company.death == null){
-    death = " ";
-  }else{
-    death = `Death:  ${company.death}`;
-  }
-
+  
+  
   h2.textContent = `${company.companyname}`;
   h3.textContent = `${company.membership}`;
   parrafofirst.textContent = `${company.street}`;
@@ -57,6 +42,7 @@ function displaycompanies(company) {
 
   // Add/append the section(card) with the h2 element
   card.setAttribute('class', 'companyStyle');
+  h3.setAttribute('class', company.membership);
   
   card.appendChild(h2);
   card.appendChild(portrait);

@@ -60,11 +60,6 @@
         display: grid;
     }
 
-    img.weatherimage {
-        width: 100%;
-    }
-
-
     .cityTownList{
         grid-column: span 3;
     }

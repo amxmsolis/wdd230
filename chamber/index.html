@@ -79,14 +79,16 @@
 
             </section>
 
-            <section id="weather" class="leftInfo">
-                <div class="sectionInfo">
-                    <img class="weatherimage" src="images/transp.png" alt="">
-                    <h2 class="titleInfo">Weather</h2>
-                    <p class="textInfo">Temp: <span id="tempVar"></span> °F<br>Speed: <span id="speedVar"></span>
-                        mph<br>Wind Chill: <span id="windVar"></span></p>
-                    <img class="bubbleImg" src="images/weather.svg" alt="">
+            <section id="weather">
+                <div>
+                    <h2>Weather</h2>
+                    <h3 id="tempTitle"></h3>
+                    <p><span id="tempVar"></span><br> <span id="speedVar"></span><br><span id="windVar"></span></p>
+                    <img id="weather-icon" class="weatherimage" src="images/placeholder.png" alt="">
+                    <figcaption></figcaption>
                 </div>
+
+
             </section>
         </div>
 
@@ -127,8 +129,9 @@
 
     </footer>
     <script src="js/validate.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/spotlight.js"></script> 
+    <!--<script src="js/windchill.js"></script>-->
+    <script src="js/spotlight.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 
 </html>
