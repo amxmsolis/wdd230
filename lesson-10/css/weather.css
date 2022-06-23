@@ -1,0 +1,9 @@
+main {
+    width:100%;
+    max-width: 380px;
+    text-align: center;
+    background-color: rgb(157, 130, 182);
+}
+.capitalizeClass{
+    text-transform: capitalize;
+}
