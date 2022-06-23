@@ -147,7 +147,10 @@ main {
     width: 100%;
     overflow: auto;
 }
-
+.spotsection img {
+    max-width: 70px;
+    overflow: auto;
+}
 .imageInfo {
     position: relative;
     max-width: 100px;
