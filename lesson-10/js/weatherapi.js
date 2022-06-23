@@ -31,7 +31,7 @@ async function apiFetch() {
     const imageSrc=`https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const imageDescription=weatherData.weather[0].description;
     weatherIcon.setAttribute('src', imageSrc);
-    weatherIcon.setAttribute('alt', imageDescription);
+    weatherIcon.setAttribute('alt',`A ${imageDescription} icon is shown` );
     
     captionDesc.setAttribute('class', 'capitalizeClass');
     captionDesc.innerHTML = `${imageDescription}`;

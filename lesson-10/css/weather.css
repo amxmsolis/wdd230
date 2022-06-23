@@ -1,8 +1,10 @@
 main {
     width:100%;
-    max-width: 380px;
+    max-width: 420px;
     text-align: center;
-    background-color: rgb(157, 130, 182);
+}
+img {
+    width:70px;
 }
 .capitalizeClass{
     text-transform: capitalize;
