@@ -36,5 +36,5 @@ async function apiFetch() {
 
     captionDesc.setAttribute('class', 'capitalizeClass');
     captionDesc.innerHTML = `${imageDescription}`;
-    imageUrl.innerHTML=imageSrc;
+    imageUrl.innerHTML= `${imageSrc}`;
   }
