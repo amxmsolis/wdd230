@@ -245,6 +245,7 @@ main {
     position: absolute;
     top: .5em;
     width: 100%;
+    background-color: rgba(21, 67, 74, 0.3);
 }
 
 .textInfo {
