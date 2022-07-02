@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <title>MCCOC - Home</title>
-    <meta name="description" content="Mexico City Chambers of Commerce">
+    <title>MCCOC - Contact</title>
+    <meta name="description" content="Obtain the information to contact us or leave your questions">
     <style>
     </style>
 </head>
@@ -45,58 +45,37 @@
     </header>
 
     <main>
+        <section > 
+            <h2>Contact</h2>
+            <p><a href="mailto:info@mccoc.mx">info@mccoc.mx</a></p> 
+            <p>+52 55 1010 8120</p> 
+            <p>Av. Juarez SN, Centro Histórico, Cuauhtemoc, 06050, CDMX, Mex.</p>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.2471334749089!2d-99.14186986584326!3d19.434245354800673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b75aa014d%3A0x17d810d20da6e8cf!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses-419!2smx!4v1656730527812!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <section id="calltoAction" class="centerInfo">
-            <picture id="welcomeimage">
-                <source media="(min-width: 51em)" srcset="images/cdmx2-large.webp">
-                <source media="(min-width: 32.5em)" srcset="images/cdmx2-medium.webp">
-                <img src="images/cdmx2-small.webp" alt="Mexico City Postal">
-            </picture>
-            <div class="sectionInfo">
-                <h2 class="titleInfo">Welcome to Mexico!</h2>
-                <a class="bubbleLink" href="join.html">Join the Chamber</a>
-            </div>
+        <section class="joinRegistrationForm">
+            <h2>Do you have a question? Leave us a message </h2>
+            <form id="registrationForm" method="get" target="_self" action="message.html">
+                <label for="givenName" class="fieldDescription">Name *<span class="alertgivenName"></span></label>
+                <input type="text" name="givenName" id="givenName" value="" placeholder="Given name" required>
+    
+                <label for="email" class="fieldDescription">eMail * <span class="alertEmail"></span></label>
+                <input type="email" name="email" id="email" value=""  placeholder="ej. someemail@company.com" required>
+    
+                <label for="mobile" class="fieldDescription">Phone number *<span class="alertMobile"></span></label>
+                <input type="tel" name="mobile" id="mobile" value=""  placeholder="Phone number only numbers required" required>
+    
+                <label for="message" class="fieldDescription">Message <span
+                        class="alertJobPosition"></span></label>
+                <textarea name="message" id="message"  placeholder="Give us your comments" required></textarea>
+    
+                <input type="hidden" id="dateTime" name="dateTime" value="">
+    
+                <input type="submit" value="Contact us">
+    
+            </form>
         </section>
 
-        <div id="leftSection">
-
-            <section id="join" class="leftInfo">
-                <div class="sectionInfo">
-                    <h2 class="titleInfo">Join</h2>
-                    <p class="textInfo">Find out how to join our chamber of commerce and how your business will benefit
-                        from it!</p>
-                    <a class="bubbleLink" href="join.html">Join Us!</a>
-                </div>
-            </section>
-
-            <section id="event" class="leftInfo">
-                <img src="images/transp.png" alt="">
-                <div class="sectionInfo">
-                    <h2 class="titleInfo">Conference</h2>
-                    <h3 class="textInfo">How to create or increase your business.<br> Thuesday 1:00 pm<br>more info...
-                    </h3>
-                </div>
-
-            </section>
-
-            <section id="weather">
-                <h2>Weather</h2>
-                <h3 id="tempTitle"></h3>
-                <p><span id="tempVar"></span><br> <span id="speedVar"></span><br><span id="windVar"></span></p>
-                <img id="weather-icon" class="weatherimage" src="images/placeholder.png" alt="">
-                <figcaption></figcaption>
-            </section>
-        </div>
-
-        <section id="newsRelease" class="centerInfo">
-            <div class="sectionInfo">
-                <h2 class="titleInfo">News releases</h2>
-                <p class="textInfo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio quis vitae adipisci
-                    possimus totam sit amet, praesentium dignissimos deserunt iste. </p>
-            </div>
-        </section>
-        <section id="spotLite" class="spotLite">
-        </section>
 
 
     </main>
