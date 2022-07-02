@@ -135,17 +135,26 @@ img.logoHeader {
 /*========================*/
 main {
     padding: 1em 1em;
+    
+    justify-content: flex-start;
 }
 
-#welcomeimage {
+#calltoAction {
+    background-color: #15434a;
+    box-shadow: .1em .1em .8em .1em #15434a;
+}
+
+#welcomeimage { 
+    background-color: #15434a;  
     width: 100%;
 }
+
 
 .centerInfo img,
 .leftInfo img,
 .spotsection img {
     width: 100%;
-    overflow: auto;
+    overflow-x: auto;
 }
 .spotsection img {
     max-width: 70px;
@@ -160,6 +169,7 @@ main {
 }
 
 #join {
+    text-align: center;
     display: none;
     background-color: #7ec3cc;
     justify-self: stretch;
@@ -170,9 +180,11 @@ main {
     background-color: #ffffff;
 }
 
-#spotLite {
-    padding: .5em;
-    background-color: #3d757d;
+#spotLite { 
+    background-color: #3d757d; 
+    box-shadow: .1em .1em .8em .1em #15434a;
+    justify-content: center;
+    align-items: center;
 }
 
 #event,
@@ -221,6 +233,7 @@ main {
 .spotsection {
     position: relative;
     text-align: center;
+    box-shadow: .1em .1em .8em .1em #15434a;
 }
 
 .sectionInfo {
@@ -247,7 +260,7 @@ main {
     background-color: #3d757d;
     color: #ffffff;
     border-radius: .5em;
-    padding: .8em;
+    padding: .5em;
     text-decoration: none;
     bottom: .1em;
     right: 1em;
